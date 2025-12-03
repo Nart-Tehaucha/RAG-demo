@@ -1,16 +1,21 @@
 <h1>Quick RAG retrieval system demonstration</h1>
 
+Video demonstration: 
+https://streamable.com/7qqu64
+
 <h2>Used dataset:</h2>
 https://www.kaggle.com/datasets/dkhundley/sample-rag-knowledge-item-dataset?resource=download
-<h4>Reasoning: This dataset doesn't contain any numbers, it is all text with very small dimensions, allowing a quick setup and demo.</h4>
-<h4>Expected user queries: frequently asked IT help desk question, such as "How to retrieve forgotten PIN number?"</h4>
+Reasoning: This dataset doesn't contain any numbers, it is all text with very small dimensions, allowing a quick setup and demo.
+Expected user queries: frequently asked IT help desk question, such as "How to retrieve forgotten PIN number?"
 
 <h3>Chosen VDB - ChromaDB</h3>
-<h4>Reasoning: for a very quick setup with little overhead, no sign-ups required.</h4>
+Reasoning: for a very quick setup with little overhead, no sign-ups required.
+
 <h3>Chosen chunk params - Size: 200, Overlap: 50</h3>
-<h4>Reasoning: Since the dataset text is very small, smaller chunk sizes made sense for more precise anwer to user quieries.</h4>
+Reasoning: Since the dataset text is very small, smaller chunk sizes made sense for more precise anwer to user quieries.
+
 <h3>Chosen VDB - ChromaDB</h3>
-<h4>Reasoning: for a very quick setup with little overhead.</h4>
+Reasoning: for a very quick setup with little overhead.
 
 <h2>Prerequisites</h2>
 <ul>
@@ -56,8 +61,7 @@ npm install react react-dom
 
 <h3>5. Add OpenAI API Key</h3>
 Get an OpenAI API Key from here: https://platform.openai.com/settings/organization/admin-keys<BR>
-Add it to .env.example<BR>
-Rename to .env<BR>
+Create a .env file in root and add your key in it.<BR>
 
 <h2>Executing the scripts</h2>
 
