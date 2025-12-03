@@ -4,9 +4,9 @@ Video demonstration:
 https://streamable.com/7qqu64
 
 <h2>Used dataset:</h2>
-https://www.kaggle.com/datasets/dkhundley/sample-rag-knowledge-item-dataset?resource=download
-Reasoning: This dataset doesn't contain any numbers, it is all text with very small dimensions, allowing a quick setup and demo.
-Expected user queries: frequently asked IT help desk question, such as "How to retrieve forgotten PIN number?"
+https://www.kaggle.com/datasets/dkhundley/sample-rag-knowledge-item-dataset?resource=download <BR><BR>
+Reasoning: This dataset doesn't contain any numbers, it is all text with very small dimensions, allowing a quick setup and demo.<BR>
+<b>Expected user queries:</b> frequently asked IT help desk question, such as "How to retrieve forgotten PIN number?"
 
 <h3>Chosen VDB - ChromaDB</h3>
 Reasoning: for a very quick setup with little overhead, no sign-ups required.
