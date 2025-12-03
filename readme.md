@@ -2,6 +2,15 @@
 
 <h2>Used dataset:</h2>
 https://www.kaggle.com/datasets/dkhundley/sample-rag-knowledge-item-dataset?resource=download
+<h4>Reasoning: This dataset doesn't contain any numbers, it is all text with very small dimensions, allowing a quick setup and demo.</h4>
+<h4>Expected user queries: frequently asked IT help desk question, such as "How to retrieve forgotten PIN number?"</h4>
+
+<h3>Chosen VDB - ChromaDB</h3>
+<h4>Reasoning: for a very quick setup with little overhead, no sign-ups required.</h4>
+<h3>Chosen chunk params - Size: 200, Overlap: 50</h3>
+<h4>Reasoning: Since the dataset text is very small, smaller chunk sizes made sense for more precise anwer to user quieries.</h4>
+<h3>Chosen VDB - ChromaDB</h3>
+<h4>Reasoning: for a very quick setup with little overhead.</h4>
 
 <h2>Prerequisites</h2>
 <ul>
