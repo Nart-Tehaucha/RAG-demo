@@ -25,7 +25,7 @@ Reasoning: Since the dataset text is very small, smaller chunk sizes made sense 
 
 ```
 git clone https://github.com/Nart-Tehaucha/RAG-demo.git
-cd Retrieval-Augmented-Generation
+cd RAG-demo
 ```
 
 <h3>2. Create a virtual environment</h3>
