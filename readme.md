@@ -12,10 +12,8 @@ Expected user queries: frequently asked IT help desk question, such as "How to r
 Reasoning: for a very quick setup with little overhead, no sign-ups required.
 
 <h3>Chosen chunk params - Size: 200, Overlap: 50</h3>
-Reasoning: Since the dataset text is very small, smaller chunk sizes made sense for more precise anwer to user quieries.
+Reasoning: Since the dataset text is very small, smaller chunk sizes made sense for more precise anwers to user quieries.
 
-<h3>Chosen VDB - ChromaDB</h3>
-Reasoning: for a very quick setup with little overhead.
 
 <h2>Prerequisites</h2>
 <ul>
