@@ -1,12 +1,7 @@
-<h1>Build a RAG in 10 minutes with Python, ChromaDB and OpenAI</h1>
+<h1>Quick RAG retrieval system demonstration</h1>
 
-<h2>Watch the full tutorial on my YouTube Channel</h2>
-<div>
-
-<a href="https://www.youtube.com/watch?v=JfSmffOyV-8">
-    <img src="thumbnail_small.png" alt="Thomas Janssen Youtube" width="200"/>
-</a>
-</div>
+<h2>Used dataset:</h2>
+https://www.kaggle.com/datasets/dkhundley/sample-rag-knowledge-item-dataset?resource=download
 
 <h2>Prerequisites</h2>
 <ul>
@@ -17,7 +12,7 @@
 <h3>1. Clone the repository:</h3>
 
 ```
-git clone https://github.com/ThomasJanssen-tech/Retrieval-Augmented-Generation.git
+git clone https://github.com/Nart-Tehaucha/RAG-demo.git
 cd Retrieval-Augmented-Generation
 ```
 
@@ -40,6 +35,16 @@ venv\Scripts\Activate
 pip install -r requirements.txt
 ```
 
+<h3>5. Setup npm and react</h3>
+
+```
+npm init -y
+npm install
+```
+```
+npm install react react-dom
+```
+
 <h3>5. Add OpenAI API Key</h3>
 Get an OpenAI API Key from here: https://platform.openai.com/settings/organization/admin-keys<BR>
 Add it to .env.example<BR>
@@ -49,9 +54,16 @@ Rename to .env<BR>
 
 - Open a terminal in VS Code
 
-- Execute the following command:
+- Set up Chromadb with our dataset:
 
 ```
-python fill_db.py
-python ask.py
+python backend/ingest.py
+```
+- Run the Flask server:
+```
+python backed/app.py
+```
+- Run react:
+```
+npm run dev
 ```
