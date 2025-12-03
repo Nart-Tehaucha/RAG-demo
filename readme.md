@@ -1,7 +1,7 @@
 <h1>Quick RAG retrieval system demonstration</h1>
 
-Video demonstration: 
-https://streamable.com/7qqu64
+Video demonstration: <BR>
+https://youtu.be/cIvUTthziwE
 
 <h2>Used dataset:</h2>
 https://www.kaggle.com/datasets/dkhundley/sample-rag-knowledge-item-dataset?resource=download <BR><BR>
