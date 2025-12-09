@@ -1,18 +1,9 @@
 <h1>Quick RAG retrieval system demonstration</h1>
 
-Video demonstration: <BR>
-https://youtu.be/_qc6-ozE8j0
 
 <h2>Used dataset:</h2>
 https://www.kaggle.com/datasets/dkhundley/sample-rag-knowledge-item-dataset?resource=download <BR><BR>
-Reasoning: This dataset doesn't contain any numbers, it is all text with very small dimensions, allowing a quick setup and demo.<BR>
 <b>Expected user queries:</b> frequently asked IT help desk question, such as "How to retrieve forgotten PIN number?"
-
-<h3>Chosen VDB - ChromaDB</h3>
-Reasoning: for a very quick setup with little overhead, no sign-ups required.
-
-<h3>Chosen chunk params - Size: 200, Overlap: 50</h3>
-Reasoning: Since the dataset text is very small, smaller chunk sizes made sense for more precise anwers to user quieries.
 
 
 <h2>Prerequisites</h2>
